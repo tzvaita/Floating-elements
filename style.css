@@ -11,72 +11,86 @@
     z-index: 300;
     top: 0;
     left: 0;
-    border-bottom: 1px solid #e2e2e2
 }
 
 .head-container {
     position: relative;
-    border: 1px solid #e2e2e2;
+    border-bottom: 1px solid #e2e2e2;
 }
 
 .nav-bar {
     width: 100%;
+    overflow: hidden;
+    padding: 5px;
 }
-.nav-bar div{
-    float: left;
+
+.nav-bar img {
+    width: 16px;
+    height: 16px;
+    margin: 0 15px;
 }
 
 .left-side {
-    width: 25%;
+    float: left;
+    width: 35%;
+    margin-top: 8px;
 }
 
 .img-container {
     width: 35%;
-    margin: 5px;
+    margin: 5px 0;
 }
-.nav-bar img {
-    width: 16px;
-    height: 16px;
-    margin: 5px;
+
+.abs {
+    position: absolute;
+}
+
+.SC {
+    left: 120px;
+    top: 8px;
+    font-size: 13.25px;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    line-height: 19px;
+    margin-top: 9px;
 }
 
 .nyc-logo {
     width: 57%;
     text-align: center;
+    margin: 6px auto;
+    right: 282px;
+    top: 4px;
 }
 
 .nyc-logo img {
-    width: 217px;
-    height: 30px;
+    width: 205px;
+    height: 31px;
 }
 
-.SC {
-    font-size: 14.25px;
-    font-family: nyt-franklin, helvetica, arial, sans-serif;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.7px;
-    line-height: 19px;
-    margin-top: 12px;
-}
-  
 .right-side {
-    margin: 5px;
+    float: right;
+    margin-top: 7px;
 }
 
-.right-side button {
-    float: right;
-    margin: 10px;
-    
+.subscribe {
+    color: #000;
+    margin-right: 13px;
 }
 
 .btn {
-    background-color:#567b95;
+    background-color: #000;
     color: #fff;
     font-size: 11px;
     line-height: 11px;
     font-weight: 700;
     white-space: nowrap;
-    vertical-align: middle;
     padding: 11px 12px 8px;
+    border-radius: 2px;
+    outline: none;
+    border: none;
+    width: 65px;
+    cursor: pointer;
 }
