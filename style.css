@@ -4,9 +4,9 @@
     box-sizing: border-box;
 }
 
-.nav-bar {
-    position: fixed;
-    width: 100%;
+.nav-bar div{
+    float: left;
+    width: 29%;
 }
 
 .nav-bar img {
@@ -14,6 +14,7 @@
     height: 10px;
 }
 
-.left-side {
-
+.nyc-logo img {
+    width: 100px;
+    height: 50px;
 }
