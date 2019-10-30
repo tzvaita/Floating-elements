@@ -76,8 +76,11 @@
 }
 
 .subscribe {
-    color: #000;
+    color: #333333;
+    font-size: 16px;
     margin-right: 13px;
+    letter-spacing: -0.7px;
+    text-decoration-color: #999999;
 }
 
 .btn {
@@ -93,4 +96,16 @@
     border: none;
     width: 65px;
     cursor: pointer;
+}
+
+/* when header elements are hovered on */
+/* buttons to the left */
+.img-container img:hover {
+    cursor: pointer;
+}
+
+/* anchor tag top right corner */
+.subscribe:hover {
+    color: #000;
+    text-decoration-color: #000;
 }
