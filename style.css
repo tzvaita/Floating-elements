@@ -4,6 +4,21 @@
     box-sizing: border-box;
 }
 
+.head-wrapper {
+    position: fixed;
+    width: 100%;
+    background: #fff;
+    z-index: 300;
+    top: 0;
+    left: 0;
+    border-bottom: none;
+}
+
+.head-container {
+    position: relative;
+    border: 1px solid #e2e2e2;
+}
+
 .nav-bar div{
     float: left;
     width: 29%;
