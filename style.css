@@ -8,9 +8,10 @@
     position: fixed;
     width: 100%;
     background: #fff;
-    z-index: 300;
+    z-index: 390;
     top: 0;
     left: 0;
+    box-shadow: 7px 3px 3px -5px #E2E2E2;
 }
 
 .head-container {
@@ -113,14 +114,15 @@
 /* end of header CSS */
 
 /* start of main css */
-
 .main-container {
     position: relative;
     top: 50px;
     width:100%;
+    padding: 15px;
 }
 
 .main-container div {
+    font-family: nyt-cheltenham, georgia,'times new roman', times, serif;
     margin: 0 auto;
 }
 
@@ -129,13 +131,17 @@
 }
 
 .heading-container h1 {
-    width: 345px;
-    margin: 0 auto; 
+    position: relative;
+    left: 370px;
+    width: 414px;
+    margin-bottom: 15px;
+    color: #121212;
+    font-weight: 600;
+    font-style: italic;
 }
 
 .wrapper {
-    width: 80%;
-    margin: 0 auto;
+    width: 71%;
 }
 
 .big-image {
@@ -147,7 +153,56 @@
 }
 
 .caption {
-    width: 80%;
-    /* margin: 0 auto */
+    width: 67%;
+    color: #666;
+    font-size: 13px;
+    margin-top: 10px;
+    text-align: left;
+    letter-spacing: 0.08px;
 }
+
+.words {
+    line-height: 1.4;
+}
+
+.copyright {
+    color: #888;
+    font-size: 12px;
+    line-height: 1.4
+}
+
+.main-container .author-box {
+    width: 42%;
+    margin-top: 50px;
+}
+
+.main-container .author-name {
+    margin-bottom: 20px;
+}
+
+.author-name a {
+    color: #000;
+    text-decoration-color: #c1c1c1
+}
+
+.date_social-media li {
+    list-style-type: none;
+}
+
+.date {
+    float: left;
+}
+
+.icons-box {
+    float: right;
+}
+
+.list_icon_box img {
+    width: 31px;
+    border-radius: 50%;
+    padding: 8px;
+    background: #e6e6e6;
+    margin-right: 10px;
+}
+/* end of main css */
 
