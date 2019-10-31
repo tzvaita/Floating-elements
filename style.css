@@ -197,12 +197,26 @@
     float: right;
 }
 
+.list_icon_box li {
+    float:left;
+}
 .list_icon_box img {
     width: 31px;
     border-radius: 50%;
-    padding: 8px;
+    padding: 4px;
     background: #e6e6e6;
     margin-right: 10px;
+}
+
+.list_icon_box:nth-child(5) {
+    border: none;
+    background: none;
+}
+
+.plain img {
+    border: none;
+    background: none;
+    width: 34px;
 }
 /* end of main css */
 
