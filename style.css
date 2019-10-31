@@ -109,3 +109,45 @@
     color: #000;
     text-decoration-color: #000;
 }
+
+/* end of header CSS */
+
+/* start of main css */
+
+.main-container {
+    position: relative;
+    top: 50px;
+    width:100%;
+}
+
+.main-container div {
+    margin: 0 auto;
+}
+
+.heading-container {
+    width: 100%;
+}
+
+.heading-container h1 {
+    width: 345px;
+    margin: 0 auto; 
+}
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.big-image {
+    width: 100%;
+}
+
+.big-image img{
+    width: 100%;
+}
+
+.caption {
+    width: 80%;
+    /* margin: 0 auto */
+}
+
