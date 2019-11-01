@@ -274,34 +274,61 @@
 .illus {
     width: 218px;
     font-size: 14px;
-    letter-spacing: 0.8;
+    letter-spacing: 0.2px;
 }
 
 .col-1 {
     position: absolute;
-    top: 87.5%;
+    top: 88.2%;
 }
 
 .col-2 {
     position: absolute;
-    top: 87.5%;
+    top: 88.2%;
     left: 33%;
 }
 
 .col-3 {
     position: absolute;
-    top: 87.5%;
+    top: 88.2%;
     left: 51%;
 }
 
 .col-4 {
     position: absolute;
-    top: 87.5%;
+    top: 88.2%;
+    left: 69%;
+}
+
+.col-5 {
+    position: absolute;
+    top: 95.2%;
+}
+
+.col-6 {
+    position: absolute;
+    top: 95.2%;
+    left: 33%;
+}
+
+.col-7 {
+    position: absolute;
+    top: 95.2%;
+    left: 51%;
+}
+
+.col-8 {
+    position: absolute;
+    top: 95.2%;
     left: 69%;
 }
 
 .bold {
     letter-spacing: 0.05em;
     font-size: 11px;
-    font-weight: 800
+    font-weight: 800;
+}
+
+.inflation {
+    border-bottom: 1px solid #666;
 }
