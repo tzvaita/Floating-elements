@@ -11,7 +11,7 @@
     z-index: 390;
     top: 0;
     left: 0;
-    box-shadow: 7px 3px 3px -5px #E2E2E2;
+    box-shadow: -6px 4px 1px -2px #e2e2e2;
 }
 
 .head-container {
@@ -140,7 +140,7 @@
     font-style: italic;
 }
 
-.wrapper {
+.image-container {
     width: 71%;
 }
 
@@ -153,9 +153,9 @@
 }
 
 .caption {
-    width: 67%;
+    width: 80%;
     color: #666;
-    font-size: 13px;
+    font-size: 16px;
     margin-top: 10px;
     text-align: left;
     letter-spacing: 0.08px;
@@ -167,12 +167,12 @@
 
 .copyright {
     color: #888;
-    font-size: 12px;
+    font-size: 13px;
     line-height: 1.4
 }
 
-.main-container .author-box {
-    width: 42%;
+.main-container .story-box {
+    width: 44%;
     margin-top: 50px;
 }
 
@@ -185,38 +185,63 @@
     text-decoration-color: #c1c1c1
 }
 
+.date_social-media {
+    overflow: hidden;
+}
+
 .date_social-media li {
     list-style-type: none;
 }
 
 .date {
     float: left;
+    margin-top: 5px;
 }
 
 .icons-box {
     float: right;
+    margin-right: 15px;
 }
 
 .list_icon_box li {
-    float:left;
-}
-.list_icon_box img {
-    width: 31px;
-    border-radius: 50%;
-    padding: 4px;
+    float: left;
     background: #e6e6e6;
-    margin-right: 10px;
+    border-radius: 50%;
+    margin-right: 13px;
+    padding: 6px 8px 4px;
 }
 
-.list_icon_box:nth-child(5) {
-    border: none;
-    background: none;
+/* when icons are hovered on */
+.list_icon_box .bcd:hover {
+    background: #fff;
+    cursor: pointer;
+    border: 1px solid #e6e6e6;
 }
 
-.plain img {
-    border: none;
+.list_icon_box li:last-of-type {
+    margin-right: 0;
+}
+
+.list_icon_box .plain {
+    border-radius: 50%;
     background: none;
-    width: 34px;
+    margin-right: 0;
+    padding: 3px 0;
+}
+
+.list_icon_box img {
+    width: 15px;
 }
 /* end of main css */
 
+/* story container css */
+.story-box {
+    margin: 31px auto;
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+.story {
+    margin-bottom: 20px;
+    width: 100%;
+}
