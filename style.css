@@ -11,7 +11,7 @@
     z-index: 390;
     top: 0;
     left: 0;
-    box-shadow: -6px 4px 1px -2px #e2e2e2;
+    box-shadow: 0px 2px 1px -2px #e2e2e2;
 }
 
 .head-container {
@@ -244,4 +244,64 @@
 .story {
     margin-bottom: 20px;
     width: 100%;
+}
+
+.strong {
+    font-weight: bolder;
+}
+
+/* start of theory box design */
+.image-container .theory-box {
+    font-family: nyt-cheltenham, georgia,'times new roman', times, serif;
+    margin-bottom: 15px;
+}
+
+.theory-box h3 {
+    font-size: 20px;
+    margin-bottom: 3px;
+}
+
+.abstract {
+    font-weight: 400;
+    font-size: 15px;
+    color: #666;
+}
+
+.big-image .illus {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.illus {
+    width: 218px;
+    font-size: 14px;
+    letter-spacing: 0.8;
+}
+
+.col-1 {
+    position: absolute;
+    top: 87.5%;
+}
+
+.col-2 {
+    position: absolute;
+    top: 87.5%;
+    left: 33%;
+}
+
+.col-3 {
+    position: absolute;
+    top: 87.5%;
+    left: 51%;
+}
+
+.col-4 {
+    position: absolute;
+    top: 87.5%;
+    left: 69%;
+}
+
+.bold {
+    letter-spacing: 0.05em;
+    font-size: 11px;
+    font-weight: 800
 }
