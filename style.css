@@ -393,7 +393,7 @@
     color:rgb(102, 102, 102);
 }
 
-.main-container .comments{
+.main-container .comments {
     margin-top: 15px;
 }
 
@@ -409,7 +409,7 @@
 
 .read-btn {
     background-color:rgb(86, 123, 149);
-    border: 1px solidrgb(50, 104, 145);
+    border: none;
     border-radius: 3px;
     color:white;
     display: block;
@@ -445,4 +445,97 @@
 
 .list_icon_below_box img {
     width: 12px;
+}
+
+/* section two designs */
+.sect-two {
+    max-width: 91%;
+    margin: 40px auto;
+    overflow: hidden;
+}
+
+.main-col-box, .right-col-box {
+    border-top: 1px solid #000;
+}
+
+.main-col-box {
+    width: 73%;
+    float: left;
+}
+
+.inner-box > *, .right-inner-box > * {
+    padding-top: 12px;
+}
+
+.inner-box .fig-cont {
+    float: left;
+    margin-right: 12px;
+}
+
+.fig-cont a {
+    text-decoration: none;
+}
+
+.inner-box .third {
+    margin-right: 0;
+}
+
+.sect-two-fig {
+    width: 276px;
+}
+
+.sect-two-fig img {
+    width: 276px;
+}
+
+.sect-two-fig figcaption {
+    font-size: 10px;
+    color: #999999;
+    text-align: right;
+}
+
+.sect-two-fig > * {
+    padding: 2px 0;
+}
+
+.fig-desc {
+    line-height: 22px;
+    color: #121212;
+    display: block;
+    font-weight: 500;
+    font-size: 15px
+}
+
+.fig-date {
+    letter-spacing: 0.3px;
+    color: #999999;
+    position: relative;
+    top: -18px;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+/* aside styles */
+.right-col-box {
+    width: 25%;
+    float: right;
+}
+
+.right-inner-box .news-box {
+    margin-top: 15px;
+}
+
+.news-box {
+    border-top: 1px solid #e0e0e0;
+    padding: 12px 0;
+    line-height: 22px;
+}
+
+.news-box a {
+    display: block;
+    font-size: 19px;
+    font-family: georgia,times new roman,times,serif;
+    color: #000;
+    font-weight: 500;
+    text-decoration-line: none;
 }
