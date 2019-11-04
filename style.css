@@ -333,6 +333,20 @@
     position: relative;
 }
 
+.image-container .fig-line {
+    border-top: 1px solid #000;
+    margin: 17px 0;
+    width: 86px;
+}
+
+.image-container .figure-text {
+    margin-top: 15px;;
+    font-weight: 500;
+    font-style: normal;
+    font-family: arial,helvetica,sans-serif;
+    color: #333;
+}
+
 .video-container {
     width:44%;
     height:320px;
@@ -485,11 +499,11 @@
 }
 
 .sect-two-fig {
-    width: 296px;
+    width: 280px;
 }
 
 .sect-two-fig img {
-    width: 296px;
+    width: 280px;
 }
 
 .sect-two-fig figcaption {
