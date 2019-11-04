@@ -459,12 +459,16 @@
 }
 
 .main-col-box {
-    width: 73%;
+    width: 72%;
     float: left;
 }
 
 .inner-box > *, .right-inner-box > * {
     padding-top: 12px;
+}
+
+.inner-box {
+    overflow: hidden;
 }
 
 .inner-box .fig-cont {
@@ -481,11 +485,11 @@
 }
 
 .sect-two-fig {
-    width: 276px;
+    width: 296px;
 }
 
 .sect-two-fig img {
-    width: 276px;
+    width: 296px;
 }
 
 .sect-two-fig figcaption {
@@ -513,6 +517,24 @@
     top: -18px;
     font-size: 14px;
     font-family: sans-serif;
+}
+
+.main-col-box .inner-box2 {
+    border-top: 1px solid #000;
+    margin: 30px auto 40px;
+}
+
+.inner-box2 h3 {
+    padding: 15px 0;
+}
+
+.inner-box2 .fig-cont {
+    float: left;
+    margin-right: 12px;
+}
+
+.inner-box2 .third {
+    margin-right: 0;
 }
 
 /* aside styles */
