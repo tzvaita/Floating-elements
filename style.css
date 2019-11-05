@@ -208,14 +208,14 @@
     background: #e6e6e6;
     border-radius: 50%;
     margin-right: 13px;
-    padding: 6px 8px 4px;
+    padding: 1px 8px 3px;
+    border: 1px solid #e6e6e6;
 }
 
 /* when icons are hovered on */
 .list_icon_box .bcd:hover {
     background: #fff;
     cursor: pointer;
-    border: 1px solid #e6e6e6;
 }
 
 .list_icon_box li:last-of-type {
@@ -230,7 +230,7 @@
 }
 
 .list_icon_box img {
-    width: 15px;
+    width: 10px;
 }
 /* end of main css */
 
