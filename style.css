@@ -599,7 +599,8 @@
     height: 31px;
 }
 
-.go-to {
+.bottom-header .go-to {
+    margin-top: 12px;
     float: right;
 }
 
@@ -661,7 +662,7 @@
 }
 
 .the-links .bold a {
-    color:rgb(0, 0, 0);
+    color:#000000;
     display: inline-block;
     font-family: nyt-franklin;
     text-decoration: none;
@@ -694,6 +695,10 @@
     padding-bottom: 5px;
 }
 
+.the-links .acd a {
+    padding-top: 0;
+}
+
 .the-links li a:hover {
     text-decoration: underline;
 }
@@ -702,7 +707,7 @@
     width: 91%;
     margin: 0 auto;
     position: relative;
-    top: 45px;
+    top: 43px;
     padding-bottom: 20px;
 }
 
@@ -719,5 +724,9 @@
 
 .footer-list a {
      text-decoration: none;
-     color: #333;
+     color: #a5a5a5;
+}
+
+.bottom-nav {
+    position: fixed;
 }
