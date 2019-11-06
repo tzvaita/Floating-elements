@@ -448,6 +448,7 @@
     width: 44%;
     overflow: hidden;
 }
+
 .main-container .comments {
     margin-top: 15px;
 }
@@ -617,8 +618,6 @@
 .bottom-logo {
     float: left;
 }
-
-
 
 .bottom-header .go-to {
     margin-top: 12px;
