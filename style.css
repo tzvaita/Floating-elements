@@ -177,6 +177,12 @@
     line-height: 1.4;
 }
 
+.story-box {
+    margin: 31px auto;
+    font-size: 20px;
+    line-height: 1.4;
+}
+
 .main-container .story-box {
     width: 44%;
     margin-top: 50px;
@@ -238,11 +244,6 @@
 /* end of main css */
 
 /* story container css */
-.story-box {
-    margin: 31px auto;
-    font-size: 20px;
-    line-height: 1.4;
-}
 
 .story {
     margin-bottom: 20px;
@@ -270,14 +271,14 @@
     color: #666;
 }
 
-.big-image .illus {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 .illus {
     width: 218px;
     font-size: 14px;
     letter-spacing: 0.2px;
+}
+
+.big-image .illus {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .col-1 {
