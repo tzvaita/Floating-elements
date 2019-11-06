@@ -120,7 +120,7 @@
 }
 
 .main-container div {
-    font-family: nyt-cheltenham ,georgia ,'times new roman' ,times ,serif;
+    font-family: nyt-cheltenham, 'Times New Roman', Times, serif;
     margin: 0 auto;
 }
 
@@ -255,7 +255,7 @@
 
 /* start of theory box design */
 .image-container .theory-box {
-    font-family: nyt-cheltenham ,georgia ,'times new roman' ,times ,serif;
+    font-family: nyt-cheltenham, 'Times New Roman', Times, serif;
     margin-bottom: 15px;
 }
 
@@ -346,7 +346,7 @@
     margin-top: 15px;
     font-weight: 500;
     font-style: normal;
-    font-family: arial ,helvetica ,sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: #333;
 }
 
@@ -369,7 +369,7 @@
     font-size: 0.9375rem;
     line-height: 1.25rem;
     color: #666;
-    font-family: nyt-imperial ,georgia ,'times new roman' ,times ,serif;
+    font-family: nyt-imperial, Georgia, 'Times New Roman', Times, serif;
 }
 
 .telescope-img {
@@ -388,7 +388,7 @@
     font-size: 0.9375rem;
     line-height: 1.25rem;
     color: #666;
-    font-family: nyt-imperial ,georgia ,'times new roman' ,times ,serif;
+    font-family: nyt-imperial, Georgia, 'Times New Roman', Times, serif;
 }
 
 .cap2 {
@@ -577,7 +577,7 @@
 .news-box a {
     display: block;
     font-size: 19px;
-    font-family: georgia ,times new roman ,times ,serif;
+    font-family: georgia, 'Times New Roman', Times, serif;
     color: #000;
     font-weight: 500;
     text-decoration-line: none;
@@ -613,7 +613,7 @@
 
 .go-to-link {
     color: #567b95;
-    font-family: nyt-franklin ,times;
+    font-family: nyt-franklin, 'Times New Roman', Times, serif;
     font-size: 11px;
     font-style: normal;
     font-weight: 400;
@@ -636,7 +636,7 @@
     color: rgb(51, 51, 51);
     font-size: 13px;
     font-weight: 700;
-    font-family: nyt-franklin ,times;
+    font-family: nyt-franklin, 'Times New Roman', Times, serif;
     height: 25px;
     line-height: 15px;
     margin: 0;
@@ -662,7 +662,7 @@
 .the-links li a {
     color: rgb(0, 0, 0);
     display: inline-block;
-    font-family: nyt-franklin ,Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: nyt-franklin, 'Times New Roman', Times, serif;
     text-decoration: none;
     text-transform: capitalize;
     width: 150px;
@@ -676,7 +676,7 @@
 .the-links .bold a {
     color: #000;
     display: inline-block;
-    font-family: nyt-franklin ,'Times New Roman', Times, serif;
+    font-family: nyt-franklin, 'Times New Roman', Times, serif;
     text-decoration: none;
     text-transform: capitalize;
     width: 150px;
