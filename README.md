@@ -63,7 +63,7 @@ Tennyson Zvaita - [@tennyzvaita
 
 Adewale Orotayo - [@didy707](https://twitter.com/didy707) - didymus7007@gmail.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [Floating and Positioning Elements](https://raw.githack.com/tzvaita/Floating-elements/content/index.html)
 
 
 

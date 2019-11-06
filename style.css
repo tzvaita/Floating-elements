@@ -612,7 +612,7 @@
     color:#567b95;
     font-family: nyt-franklin;
     font-size: 11px;
-    font-syle: normal;
+    font-style: normal;
     font-weight: 400;
     line-height: 11px;
     text-decoration: none;
@@ -753,7 +753,8 @@
 .pa {
     text-align: center;
     display: inline-block;
-    width: 94%
+    width: 90%;
+    font-size:20px;
 }
 
 .exp {
