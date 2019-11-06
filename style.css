@@ -77,11 +77,11 @@
 }
 
 .subscribe {
-    color: #333333;
+    color: #333;
     font-size: 16px;
     margin-right: 13px;
     letter-spacing: -0.7px;
-    text-decoration-color: #999999;
+    text-decoration-color: #999;
 }
 
 .btn {
@@ -100,7 +100,9 @@
 }
 
 /* when header elements are hovered on */
+
 /* buttons to the left */
+
 .img-container img:hover {
     cursor: pointer;
 }
@@ -117,7 +119,7 @@
 .main-container {
     position: relative;
     top: 50px;
-    width:100%;
+    width: 100%;
     padding: 15px;
 }
 
@@ -148,7 +150,7 @@
     width: 100%;
 }
 
-.big-image img{
+.big-image img {
     width: 100%;
 }
 
@@ -168,7 +170,7 @@
 .copyright {
     color: #888;
     font-size: 13px;
-    line-height: 1.4
+    line-height: 1.4;
 }
 
 .main-container .story-box {
@@ -182,7 +184,7 @@
 
 .author-name a {
     color: #000;
-    text-decoration-color: #c1c1c1
+    text-decoration-color: #c1c1c1;
 }
 
 .date_social-media {
@@ -232,6 +234,7 @@
 .list_icon_box img {
     width: 10px;
 }
+
 /* end of main css */
 
 /* story container css */
@@ -329,7 +332,7 @@
     font-weight: 800;
 }
 
-.inflation { 
+.inflation {
     position: relative;
 }
 
@@ -348,8 +351,8 @@
 }
 
 .video-container {
-    width:44%;
-    height:320px;
+    width: 44%;
+    height: 320px;
 }
 
 .video {
@@ -365,7 +368,7 @@
     width: 100%;
     font-size: 0.9375rem;
     line-height: 1.25rem;
-    color:#666;
+    color: #666;
     font-family: nyt-imperial,georgia,'times new roman',times,serif;
 }
 
@@ -384,13 +387,13 @@
 .cap1 {
     font-size: 0.9375rem;
     line-height: 1.25rem;
-    color:#666;
+    color: #666;
     font-family: nyt-imperial,georgia,'times new roman',times,serif;
 }
 
 .cap2 {
     font-size: 0.8125rem;
-    color:rgb(136, 136, 136);
+    color: rgb(136, 136, 136);
     font-family: nyt-imperial, georgia, "times new roman", times, serif;
     line-height: 1.125rem;
     letter-spacing: 0.01em;
@@ -404,7 +407,7 @@
     font-family: nyt-franklin, helvetica, arial, sans-serif;
     font-size: 0.75rem;
     line-height: 1rem;
-    color:rgb(102, 102, 102);
+    color: rgb(102, 102, 102);
 }
 
 .main-container .comments {
@@ -422,10 +425,10 @@
 }
 
 .read-btn {
-    background-color:rgb(86, 123, 149);
+    background-color: rgb(86, 123, 149);
     border: none;
     border-radius: 3px;
-    color:white;
+    color: white;
     display: block;
     font-family: nyt-franklin, helvetica, arial, sans-serif;
     font-size: 0.8125rem;
@@ -440,7 +443,7 @@
     width: 100%;
 }
 
-.icons-below  {
+.icons-below {
     float: right;
 }
 
@@ -512,7 +515,7 @@
 
 .sect-two-fig p {
     font-size: 10px;
-    color: #999999;
+    color: #999;
     text-align: right;
 }
 
@@ -525,12 +528,12 @@
     color: #121212;
     display: block;
     font-weight: 500;
-    font-size: 15px
+    font-size: 15px;
 }
 
 .fig-date {
     letter-spacing: 0.3px;
-    color: #999999;
+    color: #999;
     position: relative;
     top: -18px;
     font-size: 14px;
@@ -666,7 +669,7 @@
 }
 
 .the-links .bold a {
-    color:#000000;
+    color:#000;
     display: inline-block;
     font-family: nyt-franklin;
     text-decoration: none;
@@ -716,15 +719,13 @@
 }
 
 .footer-list {
-   text-align: center;
-   
+   text-align: center; 
 }
 
 .footer-list li {
     display: inline;
     margin-right: 15px;
-    font-size: 13px;
-   
+    font-size: 13px;  
 }
 
 .footer-list a {
