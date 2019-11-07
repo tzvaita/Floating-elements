@@ -46,6 +46,11 @@
     position: absolute;
 }
 
+.abs a {
+    text-decoration: none;
+    color: #000;
+}
+
 .SC {
     left: 120px;
     top: 8px;
@@ -442,16 +447,16 @@
 
 .icons-below  {
     float: right;
-}
-
-.story-container .icons-below ul {
-    list-style-type: none;
+    list-style: none;
 }
 
 .icons-below-box {
     float: left;
 }
 
+.icons-below-box {
+    list-style: none;
+}
 
 .list_icon_below_box li {
     list-style: none;
