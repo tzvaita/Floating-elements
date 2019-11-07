@@ -23,7 +23,7 @@ Microverse project #3 - Positioning and floats
 This is a rebuild of The New York TImes Space Article.
 [The New York Times](https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0)
 
-This is the link to our rebuild [Here]()
+This is the link to our rebuild [Here](https://raw.githack.com/tzvaita/Floating-elements/content/index.html)
 
 
 ### Built With
@@ -63,7 +63,7 @@ Tennyson Zvaita - [@tennyzvaita
 
 Adewale Orotayo - [@didy707](https://twitter.com/didy707) - didymus7007@gmail.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [Floating and Positioning Elements](https://github.com/tzvaita/Floating-elements)
 
 
 
