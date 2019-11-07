@@ -181,6 +181,10 @@
     height: 15px;
 }
 
+.list_icon_below_box img {
+    width: 12px;
+}
+
 .img-container img:hover {
     cursor: pointer;
 }
@@ -270,6 +274,15 @@
     display: inline;
     margin-right: 15px;
     font-size: 13px;
+}
+
+.list_icon_below_box li {
+    list-style: none;
+    float: left;
+    background: #e6e6e6;
+    border-radius: 50%;
+    margin-right: 13px;
+    padding: 6px 8px 4px;
 }
 
 .list_icon_box li:last-of-type {
@@ -491,19 +504,6 @@
     float: left;
 }
 
-.list_icon_below_box li {
-    list-style: none;
-    float: left;
-    background: #e6e6e6;
-    border-radius: 50%;
-    margin-right: 13px;
-    padding: 6px 8px 4px;
-}
-
-.list_icon_below_box img {
-    width: 12px;
-}
-
 /* section two designs */
 .sect-two {
     max-width: 91%;
@@ -527,7 +527,7 @@
     padding: 2px 0;
 }
 
-.inner-box > *, 
+.inner-box > *,
 .right-inner-box > * {
     padding-top: 12px;
 }
