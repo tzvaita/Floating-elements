@@ -514,22 +514,20 @@
 .right-col-box {
     width: 25%;
     float: right;
-}
-
-.main-col-box .right-col-box {
     border-top: 1px solid #000;
 }
 
 .main-col-box {
     width: 72%;
     float: left;
+    border-top: 1px solid #000;
 }
 
 .sect-two-fig > * {
     padding: 2px 0;
 }
 
-.inner-box > * .right-inner-box > * {
+.inner-box > *, .right-inner-box > * {
     padding-top: 12px;
 }
 
