@@ -527,7 +527,8 @@
     padding: 2px 0;
 }
 
-.inner-box > *, .right-inner-box > * {
+.inner-box > *, 
+.right-inner-box > * {
     padding-top: 12px;
 }
 
