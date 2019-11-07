@@ -444,13 +444,14 @@
     float: right;
 }
 
-.icons-below ul {
-    list-style: none;
+.story-container .icons-below ul {
+    list-style-type: none;
 }
 
 .icons-below-box {
     float: left;
 }
+
 
 .list_icon_below_box li {
     list-style: none;
